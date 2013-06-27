@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0DC2271774D05C00046322 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0DC2261774D05C00046322 /* Cocoa.framework */; };
+		AC0DC2291774D05C00046322 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0DC2281774D05C00046322 /* MacRuby.framework */; };
+		AC0DC2321774D05C00046322 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC0DC2301774D05C00046322 /* InfoPlist.strings */; };
+		AC0DC2341774D05C00046322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0DC2331774D05C00046322 /* main.m */; };
+		AC0DC2391774D05C00046322 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0DC2371774D05C00046322 /* MainMenu.xib */; };
+		AC0DC23C1774D05C00046322 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC0DC23B1774D05C00046322 /* rb_main.rb */; };
+		AC0DC23E1774D05C00046322 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC0DC23D1774D05C00046322 /* AppDelegate.rb */; };
+		AC0DC2411774D05C00046322 /* RubyTasker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0DC23F1774D05C00046322 /* RubyTasker.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0DC22B1774D05C00046322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0DC21B1774D05C00046322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0DC2221774D05C00046322;
+			remoteInfo = RubyTasker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0DC2231774D05C00046322 /* RubyTasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyTasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0DC2261774D05C00046322 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AC0DC2281774D05C00046322 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		AC0DC22F1774D05C00046322 /* RubyTasker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubyTasker-Info.plist"; sourceTree = "<group>"; };
+		AC0DC2311774D05C00046322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC0DC2331774D05C00046322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC0DC2351774D05C00046322 /* RubyTasker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyTasker-Prefix.pch"; sourceTree = "<group>"; };
+		AC0DC2381774D05C00046322 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC0DC23B1774D05C00046322 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		AC0DC23D1774D05C00046322 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		AC0DC2401774D05C00046322 /* RubyTasker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RubyTasker.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0DC2201774D05C00046322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DC2271774D05C00046322 /* Cocoa.framework in Frameworks */,
+				AC0DC2291774D05C00046322 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0DC21A1774D05C00046322 = {
+			isa = PBXGroup;
+			children = (
+				AC0DC22D1774D05C00046322 /* RubyTasker */,
+				AC0DC2251774D05C00046322 /* Frameworks */,
+				AC0DC2241774D05C00046322 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0DC2241774D05C00046322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC2231774D05C00046322 /* RubyTasker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0DC2251774D05C00046322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC2261774D05C00046322 /* Cocoa.framework */,
+				AC0DC2281774D05C00046322 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC0DC22D1774D05C00046322 /* RubyTasker */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC23D1774D05C00046322 /* AppDelegate.rb */,
+				AC0DC23F1774D05C00046322 /* RubyTasker.xcdatamodeld */,
+				AC0DC2361774D05C00046322 /* Resources */,
+				AC0DC23A1774D05C00046322 /* Other Sources */,
+				AC0DC22E1774D05C00046322 /* Supporting Files */,
+			);
+			path = RubyTasker;
+			sourceTree = "<group>";
+		};
+		AC0DC22E1774D05C00046322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC22F1774D05C00046322 /* RubyTasker-Info.plist */,
+				AC0DC2301774D05C00046322 /* InfoPlist.strings */,
+				AC0DC2331774D05C00046322 /* main.m */,
+				AC0DC2351774D05C00046322 /* RubyTasker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC0DC2361774D05C00046322 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC2371774D05C00046322 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC0DC23A1774D05C00046322 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AC0DC23B1774D05C00046322 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AC0DC22A1774D05C00046322 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = AC0DC2471774D05C00046322 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				AC0DC22C1774D05C00046322 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		AC0DC2221774D05C00046322 /* RubyTasker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0DC2441774D05C00046322 /* Build configuration list for PBXNativeTarget "RubyTasker" */;
+			buildPhases = (
+				AC0DC21F1774D05C00046322 /* Sources */,
+				AC0DC2201774D05C00046322 /* Frameworks */,
+				AC0DC2211774D05C00046322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyTasker;
+			productName = RubyTasker;
+			productReference = AC0DC2231774D05C00046322 /* RubyTasker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0DC21B1774D05C00046322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ilya Pozdneev";
+			};
+			buildConfigurationList = AC0DC21E1774D05C00046322 /* Build configuration list for PBXProject "RubyTasker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC0DC21A1774D05C00046322;
+			productRefGroup = AC0DC2241774D05C00046322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0DC2221774D05C00046322 /* RubyTasker */,
+				AC0DC22A1774D05C00046322 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0DC2211774D05C00046322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DC2321774D05C00046322 /* InfoPlist.strings in Resources */,
+				AC0DC2391774D05C00046322 /* MainMenu.xib in Resources */,
+				AC0DC23C1774D05C00046322 /* rb_main.rb in Resources */,
+				AC0DC23E1774D05C00046322 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0DC21F1774D05C00046322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0DC2341774D05C00046322 /* main.m in Sources */,
+				AC0DC2411774D05C00046322 /* RubyTasker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0DC22C1774D05C00046322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0DC2221774D05C00046322 /* RubyTasker */;
+			targetProxy = AC0DC22B1774D05C00046322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0DC2301774D05C00046322 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0DC2311774D05C00046322 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC0DC2371774D05C00046322 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0DC2381774D05C00046322 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0DC2421774D05C00046322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC0DC2431774D05C00046322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC0DC2451774D05C00046322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks/\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyTasker/RubyTasker-Prefix.pch";
+				INFOPLIST_FILE = "RubyTasker/RubyTasker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC0DC2461774D05C00046322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"/Library/Frameworks/\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyTasker/RubyTasker-Prefix.pch";
+				INFOPLIST_FILE = "RubyTasker/RubyTasker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC0DC2481774D05C00046322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AC0DC2491774D05C00046322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0DC21E1774D05C00046322 /* Build configuration list for PBXProject "RubyTasker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DC2421774D05C00046322 /* Debug */,
+				AC0DC2431774D05C00046322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0DC2441774D05C00046322 /* Build configuration list for PBXNativeTarget "RubyTasker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DC2451774D05C00046322 /* Debug */,
+				AC0DC2461774D05C00046322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0DC2471774D05C00046322 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DC2481774D05C00046322 /* Debug */,
+				AC0DC2491774D05C00046322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC0DC23F1774D05C00046322 /* RubyTasker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC0DC2401774D05C00046322 /* RubyTasker.xcdatamodel */,
+			);
+			currentVersion = AC0DC2401774D05C00046322 /* RubyTasker.xcdatamodel */;
+			path = RubyTasker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC0DC21B1774D05C00046322 /* Project object */;
+}
