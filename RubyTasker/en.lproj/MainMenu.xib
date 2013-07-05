@@ -1326,7 +1326,7 @@
 				<string key="NSName">_NSMainMenu</string>
 			</object>
 			<object class="NSWindowTemplate" id="972006081">
-				<int key="NSWindowStyleMask">15</int>
+				<int key="NSWindowStyleMask">13</int>
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 390}, {629, 360}}</string>
 				<int key="NSWTFlags">1954021376</int>
@@ -1355,7 +1355,7 @@
 											<string key="NSFrameSize">{589, 281}</string>
 											<reference key="NSSuperview" ref="312423454"/>
 											<reference key="NSWindow"/>
-											<reference key="NSNextKeyView" ref="635513197"/>
+											<reference key="NSNextKeyView" ref="279999108"/>
 											<string key="NSReuseIdentifierKey">_NS:13</string>
 											<bool key="NSEnabled">YES</bool>
 											<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -1550,7 +1550,7 @@
 							<string key="NSFrame">{{20, 42}, {589, 298}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="279999108"/>
+							<reference key="NSNextKeyView" ref="312423454"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<int key="NSsFlags">133680</int>
 							<reference key="NSVScroller" ref="635513197"/>
@@ -1606,7 +1606,6 @@
 							<string key="NSFrame">{{577, -1}, {39, 38}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:1574</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="496370271">
@@ -1697,7 +1696,7 @@
 								<object class="NSComboTableView" key="NSTableView" id="722664858">
 									<reference key="NSNextResponder"/>
 									<int key="NSvFlags">274</int>
-									<string key="NSFrameSize">{13, 21}</string>
+									<string key="NSFrameSize">{13, 63}</string>
 									<reference key="NSSuperview"/>
 									<reference key="NSWindow"/>
 									<string key="NSReuseIdentifierKey">_NS:24</string>
